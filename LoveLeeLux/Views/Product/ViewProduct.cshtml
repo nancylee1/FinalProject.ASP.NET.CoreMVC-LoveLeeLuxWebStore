@@ -1,0 +1,182 @@
+﻿@model Product
+@section css{
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="~/css/productDetails.css" asp-append-version="true" />
+}
+    @{
+    string image = "/images/" + Model.ProductID + ".png";
+    string formattedPrice = $"${string.Format("{0:n}", Model.Price)}";
+    string categoryName = "";
+    switch (Model.CategoryID)
+    {
+        case 1:
+            categoryName = "Bracelet";
+            break;
+        case 2:
+            categoryName = "Bag/Handbag/Purse";
+            break;
+        case 3:
+            categoryName = "Watches";
+            break;
+    }
+    //if (Model.ProductID < 12)// IF USER DOES NOT UPLOAD PRODUCT PHOTO************
+    //{
+    //    <img id="itemPhoto" src=@image />
+    //}
+    //else
+    //{
+    //    <img id="default" src="~/images/notfound.jpg" alt="image not found.jpg" />
+    //}
+
+
+    //if (Model.StockLevel < 4)
+    //{
+    //    <p style="color: red; font-size: 25px; font-weight: bold;">Only @Model.StockLevel left!</p>
+    //}
+    //if (Model.StockLevel == 0)
+    //{
+    //    <p style="color: darkgoldenrod; font-size: 25px;">Sorry Out of Stock!</p>
+            //}
+
+}
+
+
+
+<h2>@Model.Name Information</h2>
+
+
+<div id="allCards">
+    <div class="card" style="flex-direction: row; border: none;">
+        <img id="image" class="card-img-top" src="@image" alt="Image To Be Uploaded">
+        <div class="card-body" style="width: 500px;">
+            <h5 class="card-title" style="width: 500px;">
+                <a id="nameLink" href=/Product/ViewProduct/@Model.ProductID>@Model.Name</a>
+            </h5>
+            <div class="cardID">
+                <a href="#" class="card-link">
+                    <a id="productLink" style="color: black;" href=/Product/ViewProduct/@Model.ProductID>ID #: @Model.ProductID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+            </div>
+        </div>
+        <ul class="list-group list-group-flush">
+            <button type="button" class="btn btn-outline-danger" style="width: 3rem; height: 3rem; border: none;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" onclick="wishlist()" class="bi bi-heart" viewBox="0 0 16 16">
+                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                </svg>
+            </button>
+            <li class="list-group-item">@formattedPrice</li>
+            <li class="list-group-item">@Model.Description</li>
+            <li class="list-group-item">@categoryName</li>
+            <li class="list-group-item">Stock Level: @Model.StockLevel</li>
+            @if (Model.StockLevel < 4)
+            {
+
+                if (Model.StockLevel == 0)
+                {
+                    <p style="color: darkgoldenrod; font-size: 25px;">Sorry Out of Stock!</p>
+                }
+                <p style="color: red; font-size: 25px; font-weight: bold;">&nbsp;&nbsp;Only @Model.StockLevel left!</p>
+            }
+            <br>
+            <br>
+            <a href="#" class="card-link"><button type="button" style="border: 1px solid black;" ;" onclick="addToCart()" class="btn btn-secondary">&nbsp;&nbsp;&nbsp;Add to Cart</button></a>
+        </ul>
+    </div>
+</div>
+
+@*
+
+
+<div class="info">
+    <p>Product ID:@Model.ProductID </p>
+    <p>Name: @Model.Name</p>
+    <p>Price: @formattedPrice</p>
+    <p>Description: @Model.Description</p>
+    <p>Category Name: @categoryName</p>
+    <p>StockLevel: @Model.StockLevel</p>
+
+</div>
+*@
+
+<div id="button" class="btn btn-info" style="margin-bottom: 10px; margin-left: 2em;">
+    <a href="/Product/UpdateProduct/@Model.ProductID" style="color: black; font-size: 17px;">Update this Product</a>
+
+</div>
+<br>
+<div style="display: block; margin-bottom: 10px; margin-left: 2em;">
+    @using (Html.BeginForm("DeleteProduct", "Product", "Post")) // Delete product - Code will also create an alert that asks the user “Are you sure?”
+    {
+        <input type="hidden" asp-for="ProductID" value="@Model.ProductID" />
+        <input type="submit" onclick="return confirm('Are you sure?')" class="btn btn-warning" value="Delete this product" />
+    }
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<img src="~/images/dior3.jpg" alt="Dior catwalk.jpg">
+<br>
+<br>
+<!--************************* Carousel section ************************* -->
+<section class="products" id="products">
+    <h1>RECOMMENDATIONS BASED ON YOUR VIEWING HISTORY</h1>
+    <br>
+    <br>
+    <div class="container">
+
+        <div class="carousel owl-carousel">
+            <div class="card">
+                <div class="box">
+                    <img src="/images/1.png" alt="Van Cleefs Gold Bracelet.png">
+                    <div class="text">Van Cleef & Arpels Perlée Signature Bracelet</div>
+                    <p>The Perlée™ signature jewelry creations are engraved with the arabesques of a calligraphed Van Cleef & Arpels signature.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="/images/4.png" alt="Cartier Love Bracelet.png">
+                    <div class="text">LOVE bracelet, 18K Rose Gold with Diamonds</div>
+                    <p>Created in New York in 1969, the LOVE bracelet is an icon of jewelry design.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="/images/5.png" alt="Red Hermes Bag.pbg">
+                    <div class="text">Hermes 24/24 35 Bag</div>
+                    <p>Unpredictable and playful, the Hermès bag is not just for the office.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="/images/11.png" alt="Rolex Watch.png">
+                    <div class="text">Rolex DateJust 36 - Ladies Everose Gold 36mm</div>
+                    <p>With its refined glamour, the Lady-Datejust stands for style and technical performance. </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="/images/8.png" alt="Chanel Purse.png">
+                    <div class="text">Chanel Classic Lambskin Handbag</div>
+                    <p>Crafted with gifted hands and exceptional materials, your CHANEL creation feels exquisitely unique.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="/images/7.png" alt="LV Purse.png">
+                    <div class="text">Louis Vuitton - Mahina Bag</div>
+                    <p>Two bags in one: with its sides gathered in and fastened, the Hina PM is an on-point bucket model.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="~/js/site.js"></script>
+
+</section>

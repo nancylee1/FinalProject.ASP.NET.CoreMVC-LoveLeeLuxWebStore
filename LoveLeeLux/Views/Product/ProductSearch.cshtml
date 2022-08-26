@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Product>  // represents the data model that we will eventually pass to our View 
+
+<h2>Products</h2>  @*header information*@
+
+ <div style="display: block">
+     <a href="/Product/InsertProduct/">Create a New Product</a>
+ </div>
+
+<table class="table"> @*begins our table creation*@
+    <tr>   @*table row*@
+        <th>ID</th>  @*th is table header*@
+        <th>Name</th>
+        <th>Price</th>
+        <th>Category ID</th>
+        <th>Stock Level</th>
+
+    </tr>
+
+    @foreach (var product in Model)
+    {
+        <tr>
+            <td><a href=/Product/ViewProduct/@product.ProductID>@product.ProductID</a></td>
+            <td>@product.Name</td>
+            @{
+                string formattedPrice = $"${string.Format("{0:n}", product.Price)}";
+                string categoryName = "";
+                switch(product.CategoryID)
+                {
+                    case 1:
+                    categoryName = "Bracelet";
+                    break;
+
+                    case 2:
+                    categoryName = "Bag/Handbag/Purse";
+                    break;
+
+                    case 3:
+                    categoryName = "Watches";
+                    break;
+                }
+            }
+            <td>@formattedPrice</td>
+            <td>@categoryName</td>
+            <td>@product.StockLevel</td>
+
+        </tr>
+    }
+
+</table>
+
+

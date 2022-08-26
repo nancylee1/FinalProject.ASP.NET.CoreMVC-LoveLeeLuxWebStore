@@ -1,0 +1,135 @@
+﻿#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (max-width: 750px) {
+    #background-video {
+        display: none;
+    }
+
+    body {
+        background: url("https://mediastorage.livestory.io/dolcegabbana/posts/v640p/61e3fb04834f7c000a3afdba.mp4") no-repeat;
+        background-size: cover;
+    }
+
+    #photo.container {
+        flex-direction: column;
+    }
+}
+
+#createProduct {
+    padding: 50px; 
+    margin: 2px;
+}
+
+#audio {
+    float: right;
+    margin-top: 0;
+
+}
+
+#logo {
+    text-align: center;
+    color: #f6f6f6;
+    font-weight: 800;
+    -webkit-text-stroke: 0.2px;
+    -webkit-text-stroke-color: gray;
+    text-align: center;
+    font-size: 100px;
+    transform: translateY(23px);
+    opacity: 0.3;
+    padding-top: 5px;
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    margin-top: -250px; /* Negative half of height. */
+    margin-left: -250px;
+    font-style: italic;
+    font-family: 'Harlow Solid';
+    font-weight: bold;
+    justify-content: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: palevioletred;
+}
+
+
+h2 {
+    color: white;
+    font-weight: bold;
+    font-family: 'Century Gothic';
+}
+
+
+#nameLink {
+    color: black;
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+#productLink {
+    color: #464646;
+    font-size: 15px;
+}
+
+
+.card-img-top {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+    .card-img-top:hover {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+
+
+.card-body {
+    background: white;
+    color: black;
+    font-size: 15px;
+}
+
+.card {
+    width: 18rem;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    margin: 3rem;
+    padding: 3px;
+    border-radius: 0.5rem;
+    float: none;
+
+}
+
+.card-bodyFooter {
+    background: black;
+    color: white;
+    font-size: 13px;
+    padding: 1rem 1rem;
+    flex: 1 1 auto;
+}
+
+.card-title {
+    margin-bottom: 0.5rem;
+    font-size: 15px;
+}
+
+#image{
+    height:250px
+}
+
+#allCards {
+    display: inline-flex;
+    margin-left: 200px;
+}

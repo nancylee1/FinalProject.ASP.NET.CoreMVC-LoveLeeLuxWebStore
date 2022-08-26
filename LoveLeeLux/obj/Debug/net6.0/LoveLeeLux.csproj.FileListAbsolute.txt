@@ -1,0 +1,91 @@
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\bin\Debug\net6.0\LoveLeeLux.staticwebassets.runtime.json
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\bin\Debug\net6.0\LoveLeeLux.exe
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\bin\Debug\net6.0\LoveLeeLux.deps.json
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\bin\Debug\net6.0\LoveLeeLux.runtimeconfig.json
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\bin\Debug\net6.0\LoveLeeLux.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\bin\Debug\net6.0\LoveLeeLux.pdb
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\obj\Debug\net6.0\LoveLeeLux.csproj.AssemblyReference.cache
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\obj\Debug\net6.0\LoveLeeLux.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\obj\Debug\net6.0\LoveLeeLux.AssemblyInfoInputs.cache
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\obj\Debug\net6.0\LoveLeeLux.AssemblyInfo.cs
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\obj\Debug\net6.0\LoveLeeLux.csproj.CoreCompileInputs.cache
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\obj\Debug\net6.0\LoveLeeLux.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\obj\Debug\net6.0\LoveLeeLux.RazorAssemblyInfo.cache
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\obj\Debug\net6.0\LoveLeeLux.RazorAssemblyInfo.cs
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\obj\Debug\net6.0\scopedcss\bundle\LoveLeeLux.styles.css
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\obj\Debug\net6.0\scopedcss\projectbundle\LoveLeeLux.bundle.scp.css
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\obj\Debug\net6.0\LoveLeeLux.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\obj\Debug\net6.0\refint\LoveLeeLux.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\obj\Debug\net6.0\LoveLeeLux.pdb
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\obj\Debug\net6.0\LoveLeeLux.genruntimeconfig.cache
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\obj\Debug\net6.0\ref\LoveLeeLux.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\bin\Debug\net6.0\Dapper.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\bin\Debug\net6.0\Ubiety.Dns.Core.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\bin\Debug\net6.0\ZstdNet.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux\LoveLeeLux\obj\Debug\net6.0\LoveLeeLux.csproj.CopyComplete
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\bin\Debug\net6.0\appsettings.json
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\bin\Debug\net6.0\LoveLeeLux.staticwebassets.runtime.json
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\bin\Debug\net6.0\LoveLeeLux.exe
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\bin\Debug\net6.0\LoveLeeLux.deps.json
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\bin\Debug\net6.0\LoveLeeLux.runtimeconfig.json
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\bin\Debug\net6.0\LoveLeeLux.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\bin\Debug\net6.0\LoveLeeLux.pdb
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\bin\Debug\net6.0\Dapper.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\bin\Debug\net6.0\Ubiety.Dns.Core.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\bin\Debug\net6.0\ZstdNet.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\obj\Debug\net6.0\LoveLeeLux.csproj.AssemblyReference.cache
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\obj\Debug\net6.0\LoveLeeLux.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\obj\Debug\net6.0\LoveLeeLux.AssemblyInfoInputs.cache
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\obj\Debug\net6.0\LoveLeeLux.AssemblyInfo.cs
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\obj\Debug\net6.0\LoveLeeLux.csproj.CoreCompileInputs.cache
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\obj\Debug\net6.0\LoveLeeLux.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\obj\Debug\net6.0\LoveLeeLux.RazorAssemblyInfo.cache
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\obj\Debug\net6.0\LoveLeeLux.RazorAssemblyInfo.cs
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\obj\Debug\net6.0\scopedcss\bundle\LoveLeeLux.styles.css
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\obj\Debug\net6.0\scopedcss\projectbundle\LoveLeeLux.bundle.scp.css
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\obj\Debug\net6.0\LoveLeeLux.csproj.CopyComplete
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\obj\Debug\net6.0\LoveLeeLux.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\obj\Debug\net6.0\refint\LoveLeeLux.dll
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\obj\Debug\net6.0\LoveLeeLux.pdb
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\obj\Debug\net6.0\LoveLeeLux.genruntimeconfig.cache
+C:\Users\nancy\Desktop\PROJECTS\LoveLeeLux-SQL Database\LoveLeeLux\obj\Debug\net6.0\ref\LoveLeeLux.dll

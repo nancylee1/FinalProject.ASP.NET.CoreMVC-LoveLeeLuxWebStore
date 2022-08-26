@@ -1,0 +1,191 @@
+﻿#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+#showcase {
+    position: absolute;
+    top: 15rem;
+    left: 0;
+    background-size: cover;
+    background-position-x: 20%;
+    background-position-y: 20%;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    display: flex;
+}
+
+#products.products {
+    padding-top: 100px;
+}
+
+/*************** CAROUSEL STYLING ***************/
+#products h1 {
+    text-align: center;
+    color: #f6f6f6;
+    font-weight: 800;
+    -webkit-text-stroke: 0.2px;
+    -webkit-text-stroke-color: gray;
+    text-align: center;
+    font-size: 100px;
+    transform: translateY(23px);
+    opacity: 0.7;
+    padding-top: 50px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px; /* Negative half of height. */
+    margin-left: -250px;
+    font-style: italic;
+    font-family: 'Harlow Solid';
+    font-weight: bold;
+    justify-content: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: palevioletred;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+}
+
+
+.products .carousel .card {
+    padding-top: 50px;
+    background: #f6f6f6;
+    border-radius: 5px;
+    padding: 25px 35px;
+    text-align: center;
+    transition: all 0.3s ease;
+    color: black;
+}
+
+    .products .carousel .card:hover {
+        background: black;
+        color: lightgray;
+    }
+
+    .products .carousel .card .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        transition: all 0.3s ease;
+    }
+
+    .products .carousel .card:hover .box {
+        transform: scale(1.05);
+    }
+
+    .products .carousel .card .text {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 10px 0 7px 0;
+    }
+
+    .products .carousel .card img {
+        height: 150px;
+        width: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 5px solid rgb(132,20,25);
+        transition: all 0.3s ease;
+    }
+
+    .products .carousel .card:hover img {
+        border-color: hotpink;
+    }
+
+.owl-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.owl-dot {
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    background: #07080B !important;
+    outline: none !important;
+    border-radius: 50%;
+    border: 2px solid #07080B;
+    transition: all 0.3s ease;
+}
+
+.more-info {
+    display: grid;
+    width: 1200px;
+    margin: 0 auto;
+}
+.feature {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 0;
+    margin-bottom: 6em;
+}
+.feature img {
+
+    width: 35em;
+}
+
+
+.feature .content {
+    text-align: right;
+    width: 35em;
+    padding: 1em; 
+    font-size: 18px; 
+}
+
+.feature .left {
+    grid-template-areas: "left right";
+}
+.feature .left img{
+
+    grid-area: left;
+
+}
+
+.feature.left .content {
+    text-align: left;
+    width: 35em;
+    justify-self: left;
+}
+
+@media screen and (min-width: 602px) and (max-width: 962px) {
+    .blurb {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 360px) and (max-width: 601px) {
+    .blurb {
+        display: none;
+    }
+}
+
+
+.card-body {
+    background: black;
+    color: white;
+    font-size: 13px;
+
+}
+
+.card-title {
+    margin-bottom: 0.5rem;
+    font-size: 15px;
+}

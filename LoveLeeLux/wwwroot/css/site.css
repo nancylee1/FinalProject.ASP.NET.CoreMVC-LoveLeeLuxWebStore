@@ -1,0 +1,45 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+
+}
+
+body {
+    margin: 0em;
+    font-family: 'Century Gothic', sans-serif;
+    color: black;
+    font-weight: normal;
+    font-size: 14px;
+    background: white;
+ 
+}
+a {
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.display-4 {
+    color: black;
+    font-weight: 18px;
+/*    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;*/
+}
+
+.container {
+    padding-right: 0; 
+}
+
+

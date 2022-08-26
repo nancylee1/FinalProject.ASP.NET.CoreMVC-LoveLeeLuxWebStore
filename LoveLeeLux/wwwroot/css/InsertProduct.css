@@ -1,0 +1,17 @@
+﻿h2, form {
+    margin-left: 15rem; 
+    margin-right: 15rem; 
+}
+
+#body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+label.control-label, label {
+    font-size: 15px;
+   
+}
+
