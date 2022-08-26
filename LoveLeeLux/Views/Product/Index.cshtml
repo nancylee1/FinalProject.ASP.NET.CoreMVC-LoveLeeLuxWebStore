@@ -63,10 +63,10 @@
                 <li class="list-group-item">Stock Level: @product.StockLevel</li>
                 @if (product.StockLevel < 4)
                 {
-                    <p style="color: red; font-size: 14px;">&nbsp;&nbsp;&nbsp;&nbsp;Sorry Out of Stock!</p>
+                    <p style="color: red; font-size: 14px;">&nbsp;&nbsp;&nbsp;&nbsp;Only @product.StockLevel left!</p>
                     if (product.StockLevel == 0)
                     {
-                        <p style="color: red; font-size: 14px;">&nbsp;&nbsp;&nbsp;&nbsp;Only @product.StockLevel left!</p>
+                    <p style="color: red; font-size: 14px;">&nbsp;&nbsp;&nbsp;&nbsp;Sorry Out of Stock!</p>
                     }
                 }
             </ul>

@@ -70,12 +70,12 @@
             <li class="list-group-item">Stock Level: @Model.StockLevel</li>
             @if (Model.StockLevel < 4)
             {
+                <p style="color: red; font-size: 25px; font-weight: bold;">&nbsp;&nbsp;Only @Model.StockLevel left!</p>
 
                 if (Model.StockLevel == 0)
                 {
                     <p style="color: darkgoldenrod; font-size: 25px;">Sorry Out of Stock!</p>
                 }
-                <p style="color: red; font-size: 25px; font-weight: bold;">&nbsp;&nbsp;Only @Model.StockLevel left!</p>
             }
             <br>
             <br>
