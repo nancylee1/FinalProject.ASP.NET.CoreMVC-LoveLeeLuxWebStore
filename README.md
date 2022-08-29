@@ -1,6 +1,6 @@
 <h2>What is LoveLeeLux?</h2>
 
-My Final Project - LoveLeeLux Fashion Store, is a project only (not for real use) consignment store for Administrator use to manage their website. LoveLeeLux sells high end luxury accessories from different designers. The website uses the Microsoft.NET 6.0 framework that includes Dapper, MySQL database, and Razor Syntax using C#, JavaScript, HTML, CSS, Bootstrap, and Toastr to view Products in my Inventory, create, update, and delete them - working synchronously 
+My Final Project - LoveLeeLux Fashion Store, is a project only (not for real use) consignment store for Administrator use to manage their website. LoveLeeLux sells high end luxury accessories from different designers. The website uses the Microsoft.NET 6.0 framework that includes ORM Dapper, MySQL database, and Razor Syntax using C#, JavaScript, HTML, CSS, Bootstrap, and Toastr to view Products in my Inventory, create, update, and delete them - working synchronously 
 with MySQL database.
 
 <h2>What coding languages are used?</h2>
@@ -17,7 +17,7 @@ Since the page is a web application, I was able to create if statements, selecti
 
 <h1> HTML & CSS </h1>
 
-HTML provides the structure of the page, alongside CSS to compile the visual and aural layout. HTML pulled in my C# coding in the backend to communicate it to the frontend. 
+HTML provides the structure of the page, alongside CSS to compile the visual and aural layout. HTML pulled in my C# coding in the backend to communicate it to the frontend using ORM Dapper. 
 I also integrated Bootstrap 5 as a framework to allow modern UI designs such as buttons, icons, modals, etc. Boostrap was also used for the cards on the products page to enhance user interaction 
 with a clean and precise layout for the shopping view.
 
