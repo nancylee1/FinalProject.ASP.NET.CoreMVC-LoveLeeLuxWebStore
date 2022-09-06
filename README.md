@@ -1,6 +1,6 @@
 <h2>What is LoveLeeLux?</h2>
 
-My Final Project - LoveLeeLux Fashion Store, is a project only (not for real use) consignment store for Administrator use to manage their website. LoveLeeLux sells high end luxury accessories from different designers. The website uses the Microsoft.NET 6.0 framework that includes ORM Dapper, MySQL database, and Razor Syntax using C#, JavaScript, HTML, CSS, Bootstrap, and Toastr to view Products in my Inventory, create, update, and delete them - working synchronously 
+My Final Project - LoveLeeLux Fashion Store, is a project only (not for real use) consignment store for Administrator use to manage their website. LoveLeeLux sells high end luxury accessories from different designers. The website uses the Microsoft.NET 6.0 framework that includes CRUD functionality, ORM Dapper, MySQL database, and Razor Syntax using C#, JavaScript, HTML, CSS, Bootstrap, and Toastr to view Products in my Inventory, create, update, and delete them - working synchronously 
 with MySQL database.
 
 <h2>What coding languages are used?</h2>
